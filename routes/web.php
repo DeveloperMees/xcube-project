@@ -33,6 +33,7 @@ Route::get('/about', function () {
 Route::get('/support', [TicketController::class, 'create'])->name('support');
 
 
+Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
     Route::resource('parts', PartController::class);
     Route::get('/parts/{part}/delete', [PartController::class,'delete'])->name('parts.delete');
 
@@ -64,7 +65,8 @@ Route::get('/support', [TicketController::class, 'create'])->name('support');
     Route::get('/dashboard', function () {
         $parts = Part::all();
         return view('admin.dashboard', compact('parts'));
-    })->name('admin.dashboard');
+    })->name('dashboard');
+});
 
 Auth::routes();
 

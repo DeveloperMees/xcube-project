@@ -6,49 +6,49 @@
             <div class="card-header text-center font-weight-bold bg-dark">Configuration</div>
             <div class="card-body bg-light">
                 <ul class="nav flex-column">
-{{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link active link_color" href="#">--}}
-{{--                            <span data-feather="home"></span>--}}
-{{--                            Dashboard <span class="sr-only">(current)</span>--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
+                    <li class="nav-item">
+                        <a class="nav-link active link_color" href="#">
+                            <span data-feather="home"></span>
+                            Dashboard <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
 
-{{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link link_color" href="{{route('admin.cubes.index')}}">--}}
-{{--                            <span data-feather="box"></span>--}}
-{{--                            Cubes--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
-{{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link link_color" href="{{route('admin.issues.index')}}">--}}
-{{--                            <span data-feather="alert-octagon"></span>--}}
-{{--                            Issues--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
-{{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link link_color" href="{{route('admin.parts.index')}}">--}}
-{{--                            <span data-feather="tool"></span>--}}
-{{--                            Parts--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
-{{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link link_color" href="{{route('admin.users.index')}}">--}}
-{{--                            <span data-feather="users"></span>--}}
-{{--                            Users--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
-{{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link link_color" href="{{route('admin.themes.index')}}">--}}
-{{--                            <span data-feather="edit-2"></span>--}}
-{{--                            Themes--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
-{{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link link_color" href="{{route('admin.tickets.index')}}">--}}
-{{--                            <span data-feather="file-text"></span>--}}
-{{--                            Tickets--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
+                    <li class="nav-item">
+                        <a class="nav-link link_color" href="{{route('admin.cubes.index')}}">
+                            <span data-feather="box"></span>
+                            Cubes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link_color" href="{{route('admin.issues.index')}}">
+                            <span data-feather="alert-octagon"></span>
+                            Issues
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link_color" href="{{route('admin.parts.index')}}">
+                            <span data-feather="tool"></span>
+                            Parts
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link_color" href="{{route('admin.users.index')}}">
+                            <span data-feather="users"></span>
+                            Users
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link_color" href="{{route('admin.themes.index')}}">
+                            <span data-feather="edit-2"></span>
+                            Themes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link_color" href="{{route('admin.tickets.index')}}">
+                            <span data-feather="file-text"></span>
+                            Tickets
+                        </a>
+                    </li>
                     <li class="divider"></li>
                 </ul>
             </div>
